@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     margin-left: 30px;
-    margin-right: 40px;
+    margin-right: 30px;
     align-items: center;
 }
 .logo{
@@ -47,4 +47,20 @@
     position: absolute;
     top: 75%;
     justify-content: center;
+}
+
+@media (max-width:450px) {
+    .spin{
+        font-size: 26px;
+    }
+    .logo{
+        font-size: 22px;
+    }
+    .nav-list{
+        font-size: 18px;
+    }
+    .nav-list li{
+
+        padding-right: 10px;
+    }
 }
