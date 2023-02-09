@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'pop-b';
+  src: url('./assets/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: 'pop-m';
+  src: url('./assets/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: 'pop-r';
+  src: url('./assets/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: 'pop-t';
+  src: url('./assets/Poppins-Thin.ttf');
+}

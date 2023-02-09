@@ -1,0 +1,50 @@
+.landing{
+    overflow: hidden;
+    background-color: #000000;
+}
+.webgl{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -10;
+
+}
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 40px;
+    align-items: center;
+}
+.logo{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'pop-m';
+}
+
+.nav-list{
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'pop-t';
+    font-size: 24px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.nav-list li{
+
+    padding-right: 20px;
+}
+
+.spin{
+    color: #FFFFFF;
+    font-family: 'pop-b';
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 75%;
+    justify-content: center;
+}
