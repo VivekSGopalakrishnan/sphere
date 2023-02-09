@@ -29,7 +29,7 @@ const Landing = () => {
 
         const lights = new THREE.PointLight(0xffffff, 1, 100)
         lights.position.set(0, 10, 10)
-        lights.intensity=1.3
+        lights.intensity=1.4
         scene.add(lights)
         //Camera
 
@@ -74,16 +74,16 @@ const Landing = () => {
         tl.fromTo(".nav", { y: '-100%' }, { y: '0%' })
         tl.fromTo(".spin", { opacity: 0 }, { opacity: 1 })
 
-        //mousedown
+        //pointerdown
 
-        let mouseDown = false
+        let pointerDown = false
         let rgb = []
 
-        window.addEventListener("mousedown", () => (mouseDown = true))
-        window.addEventListener("mouseup", () => (mouseDown = false))
+        window.addEventListener("pointerdown", () => (pointerDown = true))
+        window.addEventListener("pointerup", () => (pointerDown = false))
 
-        window.addEventListener("mousemove", (e) => {
-            if (mouseDown) {
+        window.addEventListener("pointermove", (e) => {
+            if (pointerDown) {
                 rgb = [
                     Math.round((e.pageX / sizes.width) * 255),
                     Math.round((e.pageY / sizes.height) * 255),
